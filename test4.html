@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>What Can JavaScript Do?</h2>
+
+<p>JavaScript can change HTML attribute values.</p>
+
+<p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+<p id="demo">JavaScript can change html Content.</p>
+<button type="button"  onclick='document.getElementById("demo").innerHTML = "Hello JavaScript "'>Click Me!</button>
+<p id="c_css">This will change the font size</p>
+<p id="dissaptxt">JavaScript can disappear the text 
+                       the style of an HTML element.JavaScript can change
+                     the style of an HTML element.JavaScript can change 
+                     the style of an HTML element.JavaScript can change
+                      the style of an HTML element.JavaScript can change
+                       the style of an HTML element.JavaScript can change
+                        the style of an HTML element.JavaScript can change
+                         the style of an HTML element.JavaScript can change 
+                         the style of an HTML element.JavaScript can change
+                          the style of an HTML element.JavaScript can change 
+                         </p>
+<p id="hidden_txt" style="display: none;">This was the hidden text</p>
+<script>
+    function myFunction() {
+        
+    }
+</script>
+<p id="func" ></p>
+
+<button type="button" onclick="document.getElementById('hidden_txt').style.display='block'">Click me to show the hidden text</button>
+<button type="button" onclick="document.getElementById('dissaptxt').style.display='none'">Click Me!</button>
+<button type="button" onclick="document.getElementById('c_css').style.fontSize='35px'">Click for change font</button>
+<button type="button" onclick="document.getElementById('myImage').src ='bulbon.jpg'">Turn On The Button</button>
+<img id="myImage" src="bulboff.jpg" style="width: 100px;">
+<button onclick="document.getElementById('myImage').src ='bulboff.jpg'">Turn the button off</button>
+
+<script>
+  
+    
+
+
+
+</script>
+</body>
+</html>
